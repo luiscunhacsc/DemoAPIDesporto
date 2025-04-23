@@ -1,0 +1,12 @@
+# Ignore API keys and secrets
+.env
+# Ignore IDE and system files
+*.iml
+*.class
+*.log
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+out/
+bin/
