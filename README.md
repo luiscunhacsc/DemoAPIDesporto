@@ -1,34 +1,34 @@
-# TomasAdalgisa Basketball Stats App
+# Dados Desportivos
 
-## Setup
+## Configuração
 
-1. **Clone the repository**
-2. **Configure your API key**
-   - Copy `.env.example` to `.env` and add your API key:
+1. **Clona o repositório**
+2. **Configura a tua chave de API**
+   - Copia o ficheiro `.env.example` para `.env` e adiciona a tua chave de API:
      ```
-     API_SPORTS_KEY=YOUR_API_KEY_HERE
+     API_SPORTS_KEY=A_TUA_CHAVE_API_AQUI
      ```
-   - Or set the environment variable `API_SPORTS_KEY`.
-3. **Build and run the project**
+   - Ou define a variável de ambiente `API_SPORTS_KEY`.
+3. **Compila e executa o projeto**
 
-## Security
-- **Never commit your real API key**. The `.env` file is in `.gitignore`.
-- The app loads the API key from the environment or `.env` file.
+## Segurança
+- **Nunca cometas a tua chave de API verdadeira**. O ficheiro `.env` está no `.gitignore`.
+- A aplicação carrega a chave da API a partir do ambiente ou do ficheiro `.env`.
 
-## Requirements
-- Java 11 or higher
+## Requisitos
+- Java 11 ou superior
 
-## Usage
-- Run `Main.java` to launch the Swing UI.
+## Utilização
+- Executa o ficheiro `Main.java` para iniciar a interface gráfica Swing.
 
-
+---
 
 ### Como obter APIs para outras modalidades
 1. Acede ao site oficial: [https://www.api-sports.io/](https://www.api-sports.io/)
-2. Cria uma conta gratuita ou faz login.
-3. Escolhe a modalidade pretendida (ex: Football, Tennis, Formula 1, etc.).
+2. Cria uma conta gratuita ou inicia sessão.
+3. Escolhe a modalidade pretendida (ex: Futebol, Ténis, Fórmula 1, etc.).
 4. Solicita a tua chave de API específica para essa modalidade.
-5. Consulta a documentação para endpoints e exemplos de cada desporto.
+5. Consulta a documentação para os endpoints e exemplos de cada desporto.
 
 ### Exemplos de endpoints base
 - **Basquetebol:** `https://v1.basketball.api-sports.io/`
@@ -36,17 +36,15 @@
 - **Ténis:** `https://v1.tennis.api-sports.io/`
 - **Fórmula 1:** `https://v1.formula-1.api-sports.io/`
 
-### Como adaptar o projeto para outra modalidade
+### Como adaptar o projeto a outra modalidade
 - Altera o endpoint base (`BASE_URL`) no código para o da modalidade pretendida.
 - Usa a chave de API correspondente.
-- Ajusta os parâmetros e tratamento de dados conforme a documentação da nova modalidade.
+- Ajusta os parâmetros e o tratamento de dados conforme a documentação da nova modalidade.
 
 Para mais detalhes e documentação de cada API, visita: [https://www.api-sports.io/documentation](https://www.api-sports.io/documentation)
 
 ---
 
-For any issues or contributions, open a pull request or issue on GitHub.
-
+Para quaisquer problemas ou contributos, abre um _pull request_ ou uma _issue_ no GitHub.
 
 ---
-
